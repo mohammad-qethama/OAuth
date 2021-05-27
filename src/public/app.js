@@ -6,7 +6,7 @@ const authorizeUrl = 'https://www.linkedin.com/oauth/v2/authorization';
 const options = {
   response_type:'code',
   client_id: '77kuxl6dv41crm',
-  redirect_uri: 'http://localhost:3000/oauth',
+  redirect_uri: 'https://oauth-maq.herokuapp.com/oauth',
   state: 'some_random_string',
   scope: 'r_liteprofile',
 };
